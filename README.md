@@ -1,3 +1,31 @@
+# Comment executer la couverture de code
+npm run test -- --coverage --watchAll=false
+
+# Resultat
+PASS  src/App.test.js
+PASS  src/isMultipleOf10.test.js
+---------------------|---------|----------|---------|---------|-------------------
+File                 | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+---------------------|---------|----------|---------|---------|-------------------
+All files            |   15.38 |        0 |      50 |   15.38 | 
+ src                 |    8.33 |        0 |   33.33 |    8.33 |                   
+  App.js             |     100 |      100 |     100 |     100 | 
+  index.js           |       0 |      100 |     100 |       0 | 7-17
+  reportWebVitals.js |       0 |        0 |       0 |       0 | 1-8
+ src/logic/math      |     100 |      100 |     100 |     100 | 
+  isMultipleOf10.js  |     100 |      100 |     100 |     100 | 
+---------------------|---------|----------|---------|---------|-------------------
+
+Test Suites: 2 passed, 2 total
+Tests:       3 passed, 3 total
+Snapshots:   0 total
+Time:        1.875 s
+Ran all test suites.
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
