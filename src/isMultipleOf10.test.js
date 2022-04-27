@@ -1,4 +1,4 @@
-import isMultipleOf10 from './logic/math/codeSnippets'
+import isMultipleOf10 from './logic/math/isMultipleOf10'
 
 describe("isMultipleOf10 should return a boolean value", () => {
   test('should be true or', () => {
