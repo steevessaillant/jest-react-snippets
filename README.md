@@ -24,7 +24,7 @@ Ran all test suites.
 
 # Rapport HTML
 
-[a link] (https://github.com/steevessaillant//jest-react-snippets/blob/main/coverage/lcov-report/index.html)
+[a link] (https://github.com/steevessaillant/jest-react-snippets/blob/main/coverage/lcov-report/index.html)
 
 
 
